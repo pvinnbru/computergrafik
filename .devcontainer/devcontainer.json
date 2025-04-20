@@ -1,0 +1,8 @@
+{
+    "name": "OpenGL Dev",
+    "image": "ubuntu:22.04",
+    "postCreateCommand": "apt update && apt install -y cmake g++ libwayland-dev libxkbcommon-dev xorg-dev git gedit",
+    "mounts": ["source=${localWorkspaceFolder},target=/workspace,type=bind"],
+    "settings": {},
+    "remoteUser": "root"
+}
